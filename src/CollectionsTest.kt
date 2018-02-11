@@ -29,5 +29,6 @@ fun main(args: Array<String>) {
     println("Kotlin".last())
 
     println(list.joinToString2(separator = "; ", prefix = "(", postfix = ")"))
+
     println(strings.join())
 }
