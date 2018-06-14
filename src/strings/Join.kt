@@ -57,6 +57,7 @@ var StringBuilder.lastChar: Char
     }
 
 fun main(args: Array<String>) {
+
     println("Kotlin".lastChar())
     println("Kotlin".lastChar2())
     println("Kotlin".lastChar)
