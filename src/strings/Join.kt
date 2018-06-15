@@ -10,7 +10,9 @@ fun <T> joinToString(
     val result = StringBuilder(prefix)
 
     for ((index, element) in collection.withIndex()) {
-        if (index > 0) result.append(separator)
+        if (index > 0) {
+            result.append(separator)
+        }
         result.append(element)
     }
 
@@ -28,7 +30,9 @@ fun <T> Collection<T>.joinToString2(
     val result = StringBuilder(prefix)
 
     for ((index, element) in withIndex()) {
-        if (index > 0) result.append(separator)
+        if (index > 0) {
+            result.append(separator)
+        }
         result.append(element)
     }
 

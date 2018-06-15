@@ -14,9 +14,11 @@ fun main(args: Array<String>) {
     println(map.javaClass)
 
     val strings = listOf("first", "second", "fourteenth")
+
     println(strings.last())
 
     val numbers = setOf(1, 14, 2)
+
     println(numbers.max())
 
     println(list)
